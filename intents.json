@@ -1,0 +1,35 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+        "responses": ["Hello!", "Hi there!", "Hey!", "Greetings!", "How can I assist you today?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Catch you later"],
+        "responses": ["Goodbye!", "See you!", "Take care!", "Have a nice day!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Thanks a lot", "Much appreciated"],
+        "responses": ["You're welcome!", "No problem!", "Anytime!", "Glad to help!"]
+      },
+      {
+        "tag": "hours",
+        "patterns": ["What are your hours?", "When are you open?", "Opening hours", "Working hours"],
+        "responses": ["We're open every day from 9am to 5pm.", "Our working hours are 9am–5pm."]
+      },
+      {
+        "tag": "location",
+        "patterns": ["Where are you located?", "Your location?", "Where can I find you?"],
+        "responses": ["We're located at 123 Main Street, Springfield.", "You can find us at 123 Main St."]
+      },
+      {
+        "tag": "services",
+        "patterns": ["What services do you offer?", "Tell me about your services", "Services?"],
+        "responses": ["We offer web development, app design, and AI consulting.", "Our services include AI, web dev, and mobile apps."]
+      }
+    ]
+  }
+  
